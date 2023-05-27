@@ -10,6 +10,5 @@ function calculate(a, b) {
     return [add, subtract, multiply, divide];
 }
   
-const [add, subtract, multiply, divide] = calculate(4, 7);
-calculate(6,7);
-console.log(calculate(4,7));
+const [add, subtract, multiply, divide] = calculate(16, 2);
+console.log(calculate(16,2));
